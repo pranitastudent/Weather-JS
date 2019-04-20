@@ -9,8 +9,8 @@ class UI {
         this.maxTemp = document.getElementById('w-maxtemp');
         this.pressure = document.getElementById('w-pressure');
         this.wind = document.getElementById('w-wind');
-       
     }
+
     paint(weather) {
         this.location.textContent = weather.name;
         this.desc.textContent = weather.weather[0].main;;
